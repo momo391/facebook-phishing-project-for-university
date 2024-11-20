@@ -57,6 +57,7 @@
             {#snippet children({ props })}
               <Input
                 {...props}
+                type="password"
                 placeholder="Password"
                 bind:value={$formData.password}
               />
