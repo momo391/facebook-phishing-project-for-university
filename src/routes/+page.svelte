@@ -6,6 +6,7 @@
   import { Separator } from "$lib/components/ui/separator";
   import { signInSchema } from "$lib/schema";
   import Icon from "@iconify/svelte";
+  import { preventDefault } from "svelte/legacy";
   import {
     superForm,
     type Infer,
@@ -74,7 +75,7 @@
           {/if}
         </Form.Button>
         <a
-          href="https://web.facebook.com"
+          href="https://web.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0"
           class="capitalize text-sm font-semilight text-center text-blue-500 hover:text-blue-600 hover:underline"
           >forget password ?</a
         >
