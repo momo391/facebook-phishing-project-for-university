@@ -34,11 +34,11 @@
 </script>
 
 <div
-  class="min-h-screen bg-gray-100 flex items-center justify-between container px-48 gap-10"
+  class="min-h-screen bg-gray-100 flex items-center justify-between container px-48 gap-28"
 >
   <div class="w-2/3 flex items-start justify-start flex-col">
-    <p class="text-blue-600 text-center text-7xl font-bold">facebook</p>
-    <p class="font-medium text-2xl">
+    <p class="text-blue-600 text-center text-6xl font-bold">facebook</p>
+    <p class="font-medium text-3xl">
       Connect with friends and the world around you on Facebook.
     </p>
   </div>
