@@ -30,7 +30,7 @@
     },
   });
 
-  const { form: formData, enhance, delayed } = $state(form);
+  const { form: formData, enhance, delayed } = $derived(form);
 </script>
 
 <div class="min-h-screen bg-gray-100 flex items-center justify-center flex-col">
