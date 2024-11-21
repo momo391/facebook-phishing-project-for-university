@@ -33,8 +33,8 @@
   const { form: formData, enhance, delayed } = $state(form);
 </script>
 
-<div class="min-h-screen flex items-center justify-center flex-col">
-  <Card.Root class="w-screen max-w-sm">
+<div class="min-h-screen bg-gray-100 flex items-center justify-center flex-col">
+  <Card.Root class="w-screen max-w-sm shadow-md">
     <Card.Header>
       <Card.Title>
         <p class="text-blue-600 text-center text-5xl font-bold">facebook</p>
